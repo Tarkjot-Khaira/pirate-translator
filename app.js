@@ -11,7 +11,7 @@ function getTranslationUrl(text) {
 
 function errorHandler(error) {
     console.log("error occured", error);
-    alert("you have exceeded the limit!!");
+    alert("you have exceeded the limit, try in next hour!");
 }
 
 function clickHandler() {
