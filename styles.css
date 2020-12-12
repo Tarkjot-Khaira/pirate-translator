@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
 :root {
-  --primary-color: #D9F99D;
-  --text-color: #65A30D;
+  --primary-color: #1C1917;
+  --text-color: white;
   --lg-font-size: 2.5rem;
   --md-font-size: 1.5rem;
 }
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Langar', cursive;
     margin: 0px;
-}
+    background-image: url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
 hr {
   margin: 2rem 0rem;
@@ -35,6 +39,7 @@ hr {
   color: white;
   padding: 1rem;
   border-radius: 0.5rem;
+  opacity: 75%;
 }
 .navigation .nav-brand {
   font-weight: bolder;
@@ -55,6 +60,7 @@ hr {
   font-family: inherit;
   font-size: var(--md-font-size);
   font-weight: bold;
+  opacity: 50%;
 }
 
 /* button */
@@ -75,6 +81,7 @@ hr {
   text-align: center;
   color: var(--text-color);
   border-radius: 0.5rem;
+  opacity: 75%;
 }
 
 .footer .footer-header {
